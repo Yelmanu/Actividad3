@@ -5,6 +5,15 @@
 <title>Formulario de Contacto</title>
 </head>
 <body>
-
+<fieldset>
+	<form align="center">
+		<label for="Nombre">Nombre: </label><input type="text" id="Nombre" name="Nombre" required><br><br>
+		<label for="email">Email: </label><input type="email" id="email" name="email" placeholder="ejemplo@ejemplo.com" required><br><br>
+		<label for="motivo">Motivo Consulta: </label><input type="text" id="motivo" name="motivo" placeholder="Motivo"><br><br>
+		<label for="observaciones">Observaciones: </label><textarea id="observaciones" name="observaciones" cols="40" rows="5" style="resize: both;" placeholder="Exponga aqui los motivos"></textarea><br><br>
+		<input type="submit" value="Enviar">
+	</form>
+</fieldset>
+<br><br><p align="right"><button onclick="location.href='index.html'">Volver a la página principal</button></p>
 </body>
 </html>
